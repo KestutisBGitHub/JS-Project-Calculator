@@ -31,3 +31,12 @@
 // sukurti visą HTML pačiame dokumente ir atitinkamai selectinti visus elementus.
 
 // Sėkmės!
+
+const calculatorDesign = () => {
+  const frame = document.createElement("div");
+  frame.classList.add("frame");
+  frame.style.border = "1px solid black";
+  document.body.append(frame);
+};
+
+calculatorDesign();
